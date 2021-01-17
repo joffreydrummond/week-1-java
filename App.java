@@ -16,10 +16,10 @@ public class App {
 
         int friendsAvg = ageInYears / numOfFriends;
 
-        String fullName = firstName + middleName + lastName;
+        String fullName = firstName + " " + middleName + " " + lastName;
 
         System.out
-                .println("After buying the combo meal, I only have " + remainingMoneyInWallet + " left in my wallet!");
+                .println("After buying the combo meal, I only have $" + remainingMoneyInWallet + " left in my wallet!");
         System.out.println("I have  " + friendsAvg + " really close friends.");
         System.out.println("My full name is " + fullName);
 
